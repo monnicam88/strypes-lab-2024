@@ -75,6 +75,7 @@
     │   ├── TruthTable2.txt                  # Sample truth table 2
     │   ├── ...                              # More sample truth tables
     │   └── IntegratedCircuitsExamples.txt   # Sample circuit input examples
+    ├── README.md                            # Project overview
 └── .gitignore
 └── README.md                                # Repository overview
 └── LICENSE              
