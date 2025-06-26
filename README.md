@@ -3,81 +3,35 @@
 
 ## 1. Repository Hierarchy Structure
 ```
-└── docs/                                   # Project documentation
-    └── documentation.pdf                   
-└── exercises/                              # Practice exercises
-    ├── tasks-conditions/                   # Directory with conditional tasks
-    │   └── tasks-conditions.md             
-    ├── exercise01-task01.cpp               # Task 1 from exercise 1
-    ├── exercise01-task02.cpp               # Task 2 from exercise 1
-    ├── ...                                 # Remaining exercise tasks
-    ├── exercise02-task05.cpp               # Task 5 from exercise 2
-    └── exercise02-task06.cpp               # Task 6 from exercise 2
-└── homework-01/                            # Homework 1
-    ├── task-01/                            
-    │   └── task-01.txt                     
-    ├── task-02/                            
-    │   └── task-02.cpp                     
-    ├── task-03/                            
-    │   ├── task-03A.cpp                    
-    │   └── task-03B.cpp                   
-    ├── task-04/                            
-    │   ├── task-04.cpp                     
-    │   └── numbers.txt                     
-    ├── task-05/                           
-    │   ├── task-05.txt                     
-    │   └── numbers.txt                     
-    ├── task-06/                            
-    │   ├── swap.h                          
-    │   ├── swap.cpp                        
-    │   ├── program.cpp                    
-    │   └── compilation-steps.txt           
-└── homework-02/                            
-    ├── task-01/                           
-    │   └── task-01.cpp                     
-    ├── task-02/                            
-    │   └── task-02.cpp                     
-    ├── task-03/                            
-    │   ├── task-03.cpp                     
-    │   └── numbers.txt                     
-    ├── task-04/                            
-    │   └── task-04.cpp                    
-└── homework-03/                            
-    ├── task-01/                            
-    │   └── task-01.cpp                     
-    ├── task-02/                           
-    │   └── task-02.cpp                     
-    ├── task-03/                            
-    │   └── task-03.cpp                     
-    ├── task-04/                            
-    │   └── task-04.cpp                     
-└── project/                                
-    ├── include/                            # Header files (interfaces)
-    │   ├── Utils.h                         
-    │   ├── Constants.h                     
-    │   ├── TruthTable.h                    
-    │   ├── DataStructures.h                
-    │   ├── MemoryManagement.h              
-    │   ├── IntegratedCircuit.h            
-    │   ├── IntegratedCircuitInput.h        
-    │   ├── IntegratedCircuitStorage.h      
-    │   └── LogicalExpressionHandler.h      
-    ├── src/                                 # Source code (.cpp files)
-    │   ├── main.cpp                        
-    │   ├── TruthTable.cpp                  
-    │   ├── DataStructures.cpp              
-    │   ├── IntegratedCircuit.cpp           
-    │   ├── IntegratedCircuitInput.cpp      
-    │   ├── IntegratedCircuitStorage.cpp    
-    │   └── LogicalExpressionHandler.cpp    
-    ├── data/                                # Test and sample files
-    │   ├── TruthTable1.txt                  # Sample truth table 1
-    │   ├── TruthTable2.txt                  # Sample truth table 2
-    │   ├── ...                              # More sample truth tables
-    │   └── IntegratedCircuitsExamples.txt   # Sample circuit input examples
-    ├── README.md                            # Project overview
-└── .gitignore
-└── README.md                                # Repository overview
+strypes-lab-2024/
+├── docs/                                   # Project documentation
+│   └── documentation.pdf
+├── exercises/                              # Practice exercises
+│   ├── tasks-conditions/                   
+│   │   └── tasks-conditions.md             
+│   ├── exercise01-task01.cpp               # Task 1 from exercise 1
+│   ├── ...                                 # Remaining exercise tasks
+│   └── exercise02-task06.cpp               # Task 6 from exercise 2
+├── homework-01/...                         # Tasks from homework 1
+├── homework-02/...                                                                      
+├── homework-03/...                                                                        
+├── project/                                # Course project                              
+│   ├── include/                            # Header files (.h files)
+│   │   ├── Utils.h                         
+│   │   ├── ...      
+│   │   └── LogicalExpressionHandler.h      
+│   ├── src/                                 # Source code (.cpp files)
+│   │   ├── main.cpp                        
+│   │   ├── ...    
+│   │   └── LogicalExpressionHandler.cpp    
+│   ├── data/                                # Test data and samples (.txt files)
+│   │   ├── TruthTable1.txt                  # Sample truth table 1
+│   │   ├── TruthTable2.txt                  # Sample truth table 2
+│   │   ├── ...                              # More sample truth tables
+│   │   └── IntegratedCircuitsExamples.txt   # Sample circuit input examples
+│   └── README.md                            # Project overview
+├── .gitignore
+├── README.md                                # Repository overview
 └── LICENSE              
 ```
 
