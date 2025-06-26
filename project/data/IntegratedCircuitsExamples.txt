@@ -1,0 +1,17 @@
+DEFINE Q(m, n, o)  "!(m & n) | (o & !p)"
+
+DEFINE M(A,B,C,D,E) "!A|(B&C)|D!E"
+
+DEFINA K(p, q, r) "(p & q) & (r | !q)"
+
+DEFINE H(a, b, c, d) "a|(b&c)&!d"
+
+DEFINE N(x, y, z) "x & ! (y | z"
+
+DEFINE l(X,Y,Z) "X&Y!Z"
+
+DEFINE r(A,C) "A|C"
+
+DEFINE ww(z) "!z"
+
+DEFINE w(a) "!a"
