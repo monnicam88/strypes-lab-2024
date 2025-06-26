@@ -4,7 +4,7 @@ int main() {
     const short int STEPS_IN_ONE_MILE = 2000; 
     double miles = 0.0;
 
-    std::cout << "Âúâåäåòå ðàçñòîÿíèåòî â ìèëè: ";
+    std::cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ Ã°Ã Ã§Ã±Ã²Ã®Ã¿Ã­Ã¨Ã¥Ã²Ã® Ã¢ Ã¬Ã¨Ã«Ã¨: ";
     std::cin >> miles;
 
     if (miles < 0) {
